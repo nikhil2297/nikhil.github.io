@@ -31,7 +31,7 @@ export default function About() {
             <div className='hero-detail-container'>
                 <motion.div whileInView="visible" initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}>
-                    <span className='font-black text-[2.5rem] max-sm:text-[2rem]'>Hey, I'm Nikhil  </span>
+                    <span className='font-black text-[2.5rem] max-sm:text-[2rem]'>Hey, I`m Nikhil  </span>
                     <span className='wave-hand'>👋</span>
                 </motion.div>
                 <h3>
