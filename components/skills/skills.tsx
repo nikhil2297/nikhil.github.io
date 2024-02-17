@@ -28,7 +28,7 @@ export default function Skills() {
         <section ref={ref} id='skills' className='skills-section'>
             <motion.div initial={{ opacity: 0, y: 100 }}
                 animate={{ opacity: 1, y: 0 }} className='skills-outer-container'>
-                <SectionHeader children={'Skills'}></SectionHeader>
+                <SectionHeader>Skills</SectionHeader>
                 <div className='skills-box-parent-container'>
                     {
                         skillsData.map((data, index) => (

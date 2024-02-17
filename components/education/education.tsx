@@ -18,7 +18,7 @@ export default function Education() {
         <Timeline>
             {
                educationData.map((data : any, index) => (
-                <TimelineItem key={index} children={data}></TimelineItem>
+                <TimelineItem key={index}>{data}</TimelineItem>
                ))
             }
         </Timeline>

@@ -14,12 +14,12 @@ export default function Experience() {
   return (
     <motion.section ref={ref} id='experience' className='exp-section' initial={{ opacity: 0, y: 100 }}
     animate={{ opacity: 1, y: 0 }}>
-        <SectionHeader  children={'Experience'}></SectionHeader>
+        <SectionHeader>Experience</SectionHeader>
         <div className='exp-box-parent-container'>
           <Timeline>
             {
               experienceData.map((item : any) => (
-                <TimelineItem key={item.id} children={item}></TimelineItem>
+                <TimelineItem key={item.id} >{item}</TimelineItem>
             ))
             }
           </Timeline>
