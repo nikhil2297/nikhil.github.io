@@ -3,7 +3,7 @@ import { getErrorMessage, validateString } from "@/lib/utils";
 import React from "react";
 import { Resend } from "resend";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+const resend = new Resend('re_XdpjhZ7m_JjfZsWUbCzyNAuC1C5xQbAkV');
 
 export const sendEmail = async (formaData: FormData) => {
     const senderEmail = formaData.get('senderEmail');
