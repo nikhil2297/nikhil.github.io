@@ -9,7 +9,7 @@ import '@/components/education/education.css';
 import { useSectionInView } from '@/lib/hooks';
 
 export default function Education() {
-  const {ref} = useSectionInView('Education');
+  const {ref} = useSectionInView('Education', 0.9);
 
   return (
     <section ref={ref} id='education' className='edu-section'>

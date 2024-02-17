@@ -9,7 +9,7 @@ import { motion } from 'framer-motion';
 import { useSectionInView } from '@/lib/hooks';
 
 export default function Experience() {
-  const {ref} = useSectionInView('Experience');
+  const {ref} = useSectionInView('Experience', 0.6);
 
   return (
     <motion.section ref={ref} id='experience' className='exp-section' initial={{ opacity: 0, y: 100 }}

@@ -21,7 +21,7 @@ const fadeInAnimationVariants = {
 };
 
 export default function Project() {
-  const {ref} = useSectionInView('Project');
+  const {ref} = useSectionInView('Project',0.9);
 
   return (
     <section ref={ref} id='project' className="scroll-mt-28 mb-28 px-4">
