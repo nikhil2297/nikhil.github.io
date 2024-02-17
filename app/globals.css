@@ -2,32 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@layer components {
+  .body-bg-layer-1 {
+    @apply bg-[#fdba74] absolute top-[-6rem] -z-10 right-[12rem] h-[30rem] w-[30em] blur-[10rem] rounded-full;
+    @apply sm:w-[68rem] md:w-[58rem] lg:w-[48rem] xl:w-[38rem] 2xl:w-[30rem];
+    @apply md:right-[6rem] lg:right-[8rem] xl:right-[10rem] 2xl:right-[12rem]; 
   }
-}
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  .body-bg-layer-2 {
+    @apply bg-[#93c5fd] absolute top-[-1rem] -z-10 left-[-35rem] h-[30rem] w-[50rem] rounded-full blur-[10rem];
+    @apply sm:w-[68rem] md:w-[63rem] lg:w-[59rem] xl:w-[55rem] 2xl:w-[50rem];
+    @apply  sm:left-[-35rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem];
   }
 }

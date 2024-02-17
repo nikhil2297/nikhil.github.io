@@ -1,0 +1,24 @@
+@tailwind components;
+
+@layer components {
+
+    .contact-section {
+        @apply text-center max-w-[60rem] w-full sm:px-[4rem] scroll-mt-28 mt-4 mb-28 sm:mt-8 sm:mb-40;
+    }
+
+    .contact-form {
+        @apply flex p-6 border-[0.15rem] bg-gray-200 rounded-xl flex-col border-black/5 shadow-lg mt-8 gap-8 justify-center items-center w-full;
+    }
+
+    .email-input {
+        @apply h-14 px-4 rounded-lg border-black/20 transition-all w-[inherit];
+    }
+
+    .message-text {
+        @apply h-24 px-4 py-4 rounded-lg border-black/20 transition-all w-[inherit];
+    }
+
+    .submit-btn {
+        @apply bg-gray-900 text-white font-bold p-4 rounded-full outline-none transition-all w-[inherit] max-w-[30rem];
+      }
+}

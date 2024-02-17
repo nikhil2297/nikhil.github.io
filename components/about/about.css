@@ -1,0 +1,38 @@
+@tailwind components;
+
+@layer components {
+    .hero-section {
+        @apply flex flex-col items-center justify-center w-full max-w-[75rem] mt-[10rem] px-[1rem] gap-4 scroll-mt-28 transition-all;
+        @apply xl:flex-row xl:justify-between;
+    }
+
+    .hero-avatar-container {
+        @apply xl:order-2;
+    }
+
+    .wave-hand {
+        @apply text-[2.5rem]  max-sm:text-[2rem];
+    }
+
+    .hero-avatar {
+       @apply h-[20rem] w-[20rem] rounded-full object-cover border-[0.3rem] border-white shadow-xl;        
+       @apply lg:h-[25rem] lg:w-[25rem] xl:h-[26rem] xl:w-[26rem] 2xl:h-[28rem] 2xl:w-[28rem]; 
+    }
+
+    .hero-detail-container {
+        @apply flex flex-col gap-3 items-start;
+        @apply xl:order-1 max-xl:w-full md:px-[6rem];
+    }
+
+    .download-cv {
+        @apply select-none flex items-center bg-white px-6 py-3 gap-2 rounded-full outline-none border border-black/10 cursor-pointer font-semibold;
+
+        @apply focus:scale-110 hover:scale-110 transition active:scale-105;
+    }
+
+    .linkden, .github {
+        @apply flex items-center bg-white p-4 rounded-full border border-black/10 cursor-pointer;
+        @apply focus:scale-110 hover:scale-110 transition active:scale-105;
+    }
+    
+}

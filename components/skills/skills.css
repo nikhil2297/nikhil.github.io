@@ -1,0 +1,21 @@
+@tailwind components;
+
+@layer components {
+    .skills-section {
+        @apply w-full max-w-[85rem] px-[1rem] scroll-mt-28 mt-10 mb-28 sm:mt-0 sm:mb-40;
+    }
+
+    .skills-outer-container {
+        @apply w-full flex flex-col items-center justify-center gap-4;
+    }
+
+    .skills-box-parent-container {
+        @apply flex flex-col gap-6 sm:flex-row sm:flex-wrap justify-center;
+    }
+
+    .skills-box-container {
+        @apply flex flex-col gap-2 p-4 border-black/20 border-[0.15rem] rounded-xl md:basis-[80%] lg:basis-[40%];
+    }
+
+
+}

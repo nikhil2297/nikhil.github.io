@@ -1,0 +1,39 @@
+@tailwind components;
+
+@layer components {
+    .header {
+        @apply fixed left-1/2 top-0 h-[4.5rem] w-full rounded-none bg-white bg-opacity-80;
+        @apply border border-white border-opacity-40;
+        @apply shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem];
+        
+        @screen sm {
+            @apply w-[38rem] rounded-full top-6 h-[3.5rem];
+        }
+    }
+
+    .nav-parent {
+        @apply flex fixed left-1/2 -translate-x-1/2 h-12 py-2;
+    
+        @screen sm {
+            @apply h-[initial] top-[1.8rem] py-0
+        }
+    }
+
+    .nav-items-list {
+        @apply flex flex-wrap gap-y-1 justify-center items-center w-[22rem];
+        @apply font-medium text-[0.9rem] text-gray-500;
+
+        @apply sm:w-[initial] sm:flex-nowrap sm:gap-5;
+    }
+
+    .nav-link-item {
+        @apply flex items-center w-full justify-center px-3 py-3 hover:text-gray-950 transition;
+        /* @apply hover:text-gray-950 transition; */
+    }
+
+    .nav-link-item-active {
+        @apply text-gray-950;
+    }
+
+
+}
