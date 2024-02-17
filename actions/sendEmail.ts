@@ -1,5 +1,3 @@
-"use server";
-
 import ContactFormEmail from "@/components/email";
 import { getErrorMessage, validateString } from "@/lib/utils";
 import React from "react";
