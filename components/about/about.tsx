@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import React, { useEffect } from 'react'
 import { BsLinkedin } from 'react-icons/bs';
 import { FaGithubSquare } from 'react-icons/fa';
@@ -12,13 +12,13 @@ import { useSectionInView } from '@/lib/hooks';
 import heroImg from '@/public/hero.png';
 
 export default function About() {
-    const {ref} = useSectionInView('About');
+    const {ref} = useSectionInView('About', 0.7);
 
     return (
         <section ref={ref} id='about' className='hero-section'>
             <motion.div className='hero-avatar-container'
-            initial={{ opacity: 0, scale: 0 }}
-            animate={{ opacity: 1, scale: 1 }}
+            initial={{ opacity: 0, y: 100 }}
+            animate={{ opacity: 1, y: 0 }}
             >
                 <Image
                     src={heroImg}

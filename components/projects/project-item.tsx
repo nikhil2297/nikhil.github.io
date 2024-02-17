@@ -34,7 +34,7 @@ export default function ProjectItem({
                     src={imageUrl}
                     alt="Recnn snapshot"
                     quality={95}
-                    className="project-item group-hover:scale-[1.04] group-hover:-translate-x-3 group-hover:translate-y-1 group-hover:-rotate-1"
+                    className="project-item lg:group-hover:scale-[1.04] lg:group-hover:-translate-x-3 lg:group-hover:translate-y-1 lg:group-hover:-rotate-1"
                 />
 
             </div>

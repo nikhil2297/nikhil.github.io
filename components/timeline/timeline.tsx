@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import { SectionHeadingProps } from '@/lib/type';
 import React from 'react'
 import { motion } from 'framer-motion';

@@ -12,7 +12,7 @@ export default function Header() {
   const {activeSection, setActiveSection, setTimeLastClicked} =  useActiveSectionContext();
 
   return (<header className='z-[999] relative'>
-    <motion.div className='header' initial={{ y: -100, x: "-50%", opacity: 0 }} animate={{ y: 0, x: "-50%", opacity: 1 }}></motion.div>
+    <motion.div className='header-container' initial={{ y: -100, x: "-50%", opacity: 0 }} animate={{ y: 0, x: "-50%", opacity: 1 }}></motion.div>
 
     <nav className='nav-parent'>
       <ul className='nav-items-list'>

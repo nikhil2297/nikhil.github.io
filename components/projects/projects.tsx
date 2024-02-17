@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import React from 'react'
 import SectionHeader from '@/components/section-header'
 import { projectData } from '@/lib/data'

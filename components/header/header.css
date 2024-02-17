@@ -1,7 +1,7 @@
 @tailwind components;
 
 @layer components {
-    .header {
+    .header-container {
         @apply fixed left-1/2 top-0 h-[4.5rem] w-full rounded-none bg-white bg-opacity-80;
         @apply border border-white border-opacity-40;
         @apply shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem];

@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import React, { useEffect } from 'react'
 import SectionHeader from '@/components/section-header'
 import { skillsData } from '@/lib/data'

@@ -7,12 +7,14 @@ import TimelineItem from '@/components/timeline/timeline-item'
 import { educationData } from '@/lib/data'
 import '@/components/education/education.css';
 import { useSectionInView } from '@/lib/hooks';
+import { motion } from 'framer-motion';
 
 export default function Education() {
-  const {ref} = useSectionInView('Education', 0.9);
+  const {ref} = useSectionInView('Education', 0.5);
 
   return (
-    <section ref={ref} id='education' className='edu-section'>
+    <motion.section ref={ref} id='education' className='edu-section' initial={{ opacity: 0, y: 100 }}
+    animate={{ opacity: 1, y: 0 }}>
         <SectionHeader>{'Education'}</SectionHeader>
         <div className='edu-box-parent-container'>
         <Timeline>
@@ -23,7 +25,7 @@ export default function Education() {
             }
         </Timeline>
         </div>
-    </section>
+    </motion.section>
     // <div>Education</div>
   )
 }

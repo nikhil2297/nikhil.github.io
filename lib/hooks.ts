@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 
 
-export function useSectionInView(sectionName: SectionName, threshold = 0.75) {
+export function useSectionInView(sectionName: SectionName, threshold = 0) {
   const { ref, inView } = useInView({
     threshold,
   });
@@ -13,7 +13,7 @@ export function useSectionInView(sectionName: SectionName, threshold = 0.75) {
     if (inView && Date.now() - timeLastClicked > 1000) {
       setActiveSection(sectionName);
     }
-  }, [inView, setActiveSection, timeLastClicked, sectionName]);
+  }, [inView, setActiveSection, timeLastClicked]);
 
   return {
     ref,
