@@ -3,7 +3,7 @@
 @layer components {
 
     .contact-section {
-        @apply text-center max-w-[60rem] w-full sm:px-[4rem] scroll-mt-28 mt-4 mb-28 sm:mt-8 sm:mb-40;
+        @apply text-center sm:max-w-[60rem] w-full sm:px-[4rem] scroll-mt-28 mt-4 mb-28 sm:mt-8 sm:mb-40;
     }
 
     .contact-form {

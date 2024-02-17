@@ -2,7 +2,7 @@
 
 @layer components {
     .hero-section {
-        @apply flex flex-col items-center justify-center w-full max-w-[75rem] mt-[10rem] px-[1rem] gap-4 scroll-mt-28 transition-all;
+        @apply flex flex-col items-center justify-center w-full sm:max-w-[75rem] mt-[10rem] px-[1rem] gap-4 scroll-mt-28 transition-all;
         @apply xl:flex-row xl:justify-between;
     }
 

@@ -2,7 +2,7 @@
 
 @layer components {
     .exp-section {
-      @apply w-full max-w-[75rem] px-[1rem] scroll-mt-28 mt-4 mb-28 sm:mt-0 sm:mb-40;
+      @apply w-full sm:max-w-[75rem] px-[1rem] scroll-mt-28 mt-4 mb-28 sm:mt-0 sm:mb-40;
     }
 
     .exp-box-parent-container {

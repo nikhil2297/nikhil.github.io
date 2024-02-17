@@ -9,7 +9,7 @@ import '@/components/about/about.css';
 import { personalData } from '@/lib/data';
 import { motion } from "framer-motion";
 import { useSectionInView } from '@/lib/hooks';
-import heroImg from '@/public/hero.png';
+import heroImg from '@/public/hero_2.jpg';
 
 export default function About() {
     const {ref} = useSectionInView('About', 0.7);
@@ -54,7 +54,7 @@ export default function About() {
         animate={{ opacity: 1, y: 0 }} transition={{
             delay:0.1
         }}>
-                    <a className='download-cv group'>Download CV{" "}
+                    <a className='download-cv group' href='/resume_nikhil.pdf' target='_blank'>Download CV{" "}
                         <HiDownload className='opacity-60' />
                     </a>
                     <a className='linkden' href={personalData.linkden} target='_blank'>
