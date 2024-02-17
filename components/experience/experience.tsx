@@ -1,10 +1,10 @@
 'use client';
 import React from 'react'
-import Timeline from '../timeline/timeline';
-import './experience.css';
-import SectionHeader from '../section-header';
+import Timeline from '@/components/timeline/timeline';
+import '@/components/experience/experience.css';
+import SectionHeader from '@/components/section-header';
 import { experienceData } from '@/lib/data';
-import TimelineItem from '../timeline/timeline-item';
+import TimelineItem from '@/components/timeline/timeline-item';
 import { motion } from 'framer-motion';
 import { useSectionInView } from '@/lib/hooks';
 

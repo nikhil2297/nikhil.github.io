@@ -1,11 +1,11 @@
 "use client";
 
 import React from 'react'
-import SectionHeader from '../section-header'
-import Timeline from '../timeline/timeline'
-import TimelineItem from '../timeline/timeline-item'
+import SectionHeader from '@/components/section-header'
+import Timeline from '@/components/timeline/timeline'
+import TimelineItem from '@/components/timeline/timeline-item'
 import { educationData } from '@/lib/data'
-import './education.css';
+import '@/components/education/education.css';
 import { useSectionInView } from '@/lib/hooks';
 
 export default function Education() {

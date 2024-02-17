@@ -1,14 +1,13 @@
 "use client";
 import React from 'react'
-import SectionHeader from '../section-header'
-import './contact.css';
+import SectionHeader from '@/components/section-header'
+import '@/components/contact/contact.css';
 import { motion } from "framer-motion";
 import { useSectionInView } from '@/lib/hooks';
 import { sendEmail } from '@/actions/sendEmail';
 import { Bounce, toast } from 'react-toastify';
-import { FaPaperPlane } from "react-icons/fa";
 import { useFormStatus } from 'react-dom';
-import SubmitBtn from '../submitBtn';
+import SubmitBtn from '@/components/submitBtn';
 
 
 export default function Contact() {

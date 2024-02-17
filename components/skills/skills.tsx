@@ -1,11 +1,9 @@
 'use client';
 import React, { useEffect } from 'react'
-import SectionHeader from '../section-header'
+import SectionHeader from '@/components/section-header'
 import { skillsData } from '@/lib/data'
 import { motion } from 'framer-motion';
-import './skills.css';
-import { useInView } from 'react-intersection-observer';
-import { useActiveSectionContext } from '@/context/active-section';
+import '@/components/skills/skills.css';
 import { useSectionInView } from '@/lib/hooks';
 const fadeInAnimationVariants = {
     initial: {

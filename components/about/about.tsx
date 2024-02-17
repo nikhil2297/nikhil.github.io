@@ -4,14 +4,12 @@ import { BsLinkedin } from 'react-icons/bs';
 import { FaGithubSquare } from 'react-icons/fa';
 import { HiDownload } from 'react-icons/hi';
 import Typewriter from 'react-ts-typewriter';
-import HeroImg from '../../public/hero.jpg';
 import Image from 'next/image';
-import './about.css';
+import '@/components/about/about.css';
 import { personalData } from '@/lib/data';
 import { motion } from "framer-motion";
-import { useInView } from 'react-intersection-observer';
-import { useActiveSectionContext } from '@/context/active-section';
 import { useSectionInView } from '@/lib/hooks';
+import heroImg from '@/public/hero.png';
 
 export default function About() {
     const {ref} = useSectionInView('About');
@@ -23,7 +21,7 @@ export default function About() {
             animate={{ opacity: 1, scale: 1 }}
             >
                 <Image
-                    src='/hero.png'
+                    src={heroImg}
                     width={300}
                     height={300}
                     alt='Nikhil Lohar Picture'

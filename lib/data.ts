@@ -1,8 +1,9 @@
-import React from "react";
 import recnn from "@/public/recnn.png"
 import xie from '@/public/xie.png';
 import dc from '@/public/durham.svg';
-
+import indiawyn from '@/public/indiawyn.jpeg'
+import bitkraft_logo from '@/public/bitkraft_logo.jpeg'
+import r_r_logo from '@/public/r_r_logo.jpeg'
 
 export const links = [
     {
@@ -104,7 +105,7 @@ export const experienceData = [
         id: 'exp1',
         name: "Research and Ranking",
         title: "Fullstack Developer",
-        image: "/r_r_logo.jpeg",
+        image: r_r_logo,
         location: "Mumbai, IN",
         description: `Significant strides have been made to increase productivity and accelerate processes. An appointment scheduler and calendar were created, leading to a 1.5 times boost in the sales team’s productivity. To enhance user experience and efficiency, a robust API for appointments was engineered, reducing front-end loading time by 30%. The integration of the National ID Aadhar API and OTP Service for agreement signing resulted in a remarkable 60% acceleration in client onboarding. Further streamlining was achieved through the implementation of end-to-end automation from Payment (Paytm Payment Service) to Invoice creation (JsDom). This initiative cut down processing time from 24-48 hours and reached a containment level of 92%.`,
         date: "Jan 2023 - August 2023",
@@ -115,7 +116,7 @@ export const experienceData = [
         name: "Bitkraft Technologies",
         title: "Software Engineer",
         location: "Mumbai, IN",
-        image: "/bitkraft_logo.jpeg",
+        image: bitkraft_logo,
         description: `Efficiently initiated the development of a global UI component library, which remarkably boosted productivity by 40% across diverse projects. Diligently led the comprehensive development process of an EDA project, encompassing everything from meticulous requirement gathering to robust development and deployment using Docker containers. Successfully resolved a challenging file upload bug in the Ionic framework for Android.`,
         date: "Sept 2020 - July 2022",
     },
@@ -123,7 +124,7 @@ export const experienceData = [
         index: 3,
         id: 'exp3',
         name: "Indiawyn Gaming",
-        image: "/indiawyn.jpeg",
+        image: indiawyn,
         title: "Junior Developer",
         location: "Mumbai, IN",
         description: `Conducted research to optimize Single Page Applications using Angular.js and its lifecycle events, leading to significant enhancements in application performance. Expertly resolved website bugs, which resulted in a notable improvement in web functionality. Innovatively created an end-to-end automation testing process using Selenium, maintained via an Excel sheet, thereby streamlining the testing process.`,

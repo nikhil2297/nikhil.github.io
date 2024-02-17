@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from "next/image";
-import './project.css';
+import '@/components/projects/project.css';
 
 export default function ProjectItem({
     name,

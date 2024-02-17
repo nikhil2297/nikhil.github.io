@@ -1,8 +1,8 @@
 'use client';
 import React from 'react'
-import SectionHeader from '../section-header'
+import SectionHeader from '@/components/section-header'
 import { projectData } from '@/lib/data'
-import ProjectItem from './project-item'
+import ProjectItem from '@/components/projects/project-item'
 import { motion } from 'framer-motion';
 import { useSectionInView } from '@/lib/hooks';
 
