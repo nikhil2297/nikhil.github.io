@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 const fadeInAnimationVariants = {
     initial: {
         opacity: 0,
-        x: 100,
+        x: -100,
     },
     animate: (index: number) => ({
         opacity: 1,
