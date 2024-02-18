@@ -35,7 +35,7 @@ export const personalData = {
     roles: ["FullStack Developer", "Mobile App Developer", "Programmer"],
     linkden: "https://www.linkedin.com/in/nikhillohar2297/",
     github: "https://github.com/nikhil2297",
-    about: `I'm a versatile and motivated developer who loves to learn new things and take on exciting challenges. I'm currently exploring Rust, Web3 and backend technologies to expand my skills and create innovative solutions. I always strive to deliver high-quality results and make a positive impact with my work. I have a growth mindset and a passion for learning that drives me to achieve great things`
+    about: `I'm a versatile and motivated developer who loves to learn new things and take on exciting challenges. I'm currently exploring Web3 and backend technologies to expand my skills and create innovative solutions. I always strive to deliver high-quality results and make a positive impact with my work. I have a growth mindset and a passion for learning that drives me to achieve great things`
 };
 
 export const skillsData = [
@@ -139,7 +139,7 @@ export const projectData = [
         date: "Sept 2023 - Dec 2023",
         tags: ["React", "Next.js", "Chakra UI", "Flask", "Numpy", "Pandas", "scikit-learn"],
         imageUrl: recnn,
-        link: "https://github.com/nikhilohardc/DataDivers_MusicRecommendationApp"
+        link: "https://github.com/nikhil2297/DataDivers_MusicRecommendationApp"
     },
 ] as const;
 

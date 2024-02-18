@@ -30,14 +30,16 @@ export default function Project() {
         <SectionHeader>My projects</SectionHeader>
       </motion.div>
       {projectData.map((project, index) => (
-        <motion.div key={index} variants={fadeInAnimationVariants} initial='initial' whileInView="animate"
+        <motion.a key={index} className='transition active:scale-105 cursor-pointer' variants={fadeInAnimationVariants} initial='initial' whileInView="animate"
           viewport={{
             once: true,
           }}
           custom={index}
+          href={project.link}
+          target='_blank'
         >
           <ProjectItem {...project} />
-        </motion.div>
+        </motion.a>
       ))}
     </section>)
 }
