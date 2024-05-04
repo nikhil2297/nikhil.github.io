@@ -1,9 +1,12 @@
 import recnn from "@/public/recnn.png"
+import ALDDS from "@/public/ALDDS_frontpage.png"
 import xie from '@/public/xie.png';
 import dc from '@/public/durham.svg';
 import indiawyn from '@/public/indiawyn.jpeg'
 import bitkraft_logo from '@/public/bitkraft_logo.jpeg'
 import r_r_logo from '@/public/r_r_logo.jpeg'
+import genie_ai from '@/public/genie_ai_logo.jpeg'
+import knorket_logo from '@/public/knorket_logo.jpeg'
 
 export const links = [
     {
@@ -103,6 +106,26 @@ export const experienceData = [
     {   
         index: 1,
         id: 'exp1',
+        name: "Genie AI",
+        title: "Software Engineer",
+        image: genie_ai,
+        location: "Toronto, CA",
+        description: `During my internship at Genie AI, I spearheaded the development of a comprehensive component library, featuring dynamic elements such as the All Graph widget powered by React Charts. Currently, I am immersed in crafting a cutting-edge module within our product ecosystem. This module not only facilitates AI model training for chatbot creation but also seamlessly integrates with websites utilizing webpack technology. This project encapsulates my dedication to innovation and proficiency in software engineering, contributing significantly to Genie AI's mission of advancing AI-driven solutions.`,
+        date: "Mar 2024 - Present",
+    },
+    {   
+        index: 2,
+        id: 'exp2',
+        name: "Knorket AI",
+        title: "Data Engineer",
+        image: knorket_logo,
+        location: "Toronto, CA",
+        description: `Developed Python package for data validation, integrating PySpark, Trino, and Great Expectations. Allows local or hosted PySpark validation with Trino DB sourcing. Addresses data access concerns, enabling local validation. Key components include DataValidation, ColumnExpectation, and ToParquet classes. Modular architecture enables easy customization. Utilizes PySpark for distributed processing and Great Expectations for validation. Attached comprehensive report details project overview, objectives, tech stack, class descriptions, flow diagram, and learned insights. 40% project completion.`,
+        date: "Feb 2024 - April 2024",
+    },
+    {   
+        index: 3,
+        id: 'exp3',
         name: "Research and Ranking",
         title: "Fullstack Developer",
         image: r_r_logo,
@@ -111,8 +134,8 @@ export const experienceData = [
         date: "Jan 2023 - August 2023",
     },
     {
-        index: 2,
-        id: 'exp2',
+        index: 4,
+        id: 'exp4',
         name: "Bitkraft Technologies",
         title: "Software Engineer",
         location: "Mumbai, IN",
@@ -121,8 +144,8 @@ export const experienceData = [
         date: "Sept 2020 - July 2022",
     },
     {
-        index: 3,
-        id: 'exp3',
+        index: 5,
+        id: 'exp5',
         name: "Indiawyn Gaming",
         image: indiawyn,
         title: "Junior Developer",
@@ -133,6 +156,14 @@ export const experienceData = [
 ] as const;
 
 export const projectData = [
+    {
+        name: "ALLDIS",
+        description: "Created an autonomous litter detection and collection system utilizing ROS for robot control. Employed computer vision algorithms to detect and pinpoint litter within the environment. Engineered a collection mechanism enabling the robot to effectively pick up and store litter. Additionally, developed a user interface facilitating real-time monitoring of robot status, litter detection, and drone control.",
+        date: "Jan 2024 - April 2024",
+        tags: ["Python", "Tkinter", "OpenCV", "Yolov8", "Tello SDK"],
+        imageUrl: ALDDS,
+        link: "https://github.com/TLAndrewMarkDale/CapstoneII_Group15_ALDDS.git"
+    },
     {
         name: "RecNN",
         description: "Reasoning: Portmanteau of Recommendation + Nearest Neighbours and a play on reckoning. Since we're calculating or estimating recommendations for a particular song, we feel this is perfect",
@@ -149,7 +180,7 @@ export const educationData = [
         id: 'edu1',
         title: "Durham College",
         location : "Oshawa, ON, Canada",
-        date: "Sept 2023 - Present",
+        date: "Sept 2023 - April 2024",
         image: dc,
         name : "Postgraduate in Artificial Intelligence and Machine Learning",
         description: ""
