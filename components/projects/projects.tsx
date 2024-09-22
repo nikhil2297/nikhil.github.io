@@ -21,10 +21,10 @@ const fadeInAnimationVariants = {
 };
 
 export default function Project() {
-  const {ref} = useSectionInView('Project',0.9);
+  const {ref} = useSectionInView('Projects',0.9);
 
   return (
-    <section ref={ref} id='project' className="scroll-mt-28 mb-28 px-4">
+    <section ref={ref} id='projects' className="scroll-mt-28 mb-28 px-4">
       <motion.div initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}>
         <SectionHeader>My projects</SectionHeader>
