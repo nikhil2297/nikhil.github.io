@@ -57,7 +57,7 @@ export default function About() {
                     <a className='download-cv group' href='/resume_nikhil.pdf' target='_blank'  >Download CV{" "}
                         <HiDownload className='opacity-60' />
                     </a>
-                    <a className='linkden' href={personalData.linkden} target='_blank'>
+                    <a className='linkden' href={personalData.linkedin} target='_blank'>
                         <BsLinkedin />
                     </a>
                     <a className='github' href={personalData.github} target='_blank'>
