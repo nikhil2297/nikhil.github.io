@@ -94,7 +94,7 @@ export const experienceData = [
     image: genie_ai,
     location: "Toronto, CA",
     description: `During my internship at Genie AI, I spearheaded the development of a comprehensive component library, featuring dynamic elements such as the All Graph widget powered by React Charts. Currently, I am immersed in crafting a cutting-edge module within our product ecosystem. This module not only facilitates AI model training for chatbot creation but also seamlessly integrates with websites utilizing webpack technology. This project encapsulates my dedication to innovation and proficiency in software engineering, contributing significantly to Genie AI's mission of advancing AI-driven solutions.`,
-    date: "Mar 2024 - Present",
+    date: "Mar 2024 - November 2024",
   },
   {
     index: 2,
@@ -104,7 +104,7 @@ export const experienceData = [
     image: knorket_logo,
     location: "Toronto, CA",
     description: `Developed Python package for data validation, integrating PySpark, Trino, and Great Expectations. Allows local or hosted PySpark validation with Trino DB sourcing. Addresses data access concerns, enabling local validation. Key components include DataValidation, ColumnExpectation, and ToParquet classes. Modular architecture enables easy customization. Utilizes PySpark for distributed processing and Great Expectations for validation. Attached comprehensive report details project overview, objectives, tech stack, class descriptions, flow diagram, and learned insights. 40% project completion.`,
-    date: "Feb 2024 - April 2024",
+    date: "Sept 2023 - Feb  2024",
   },
   {
     index: 3,
