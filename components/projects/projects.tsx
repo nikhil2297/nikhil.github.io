@@ -30,7 +30,7 @@ export default function Project() {
         <SectionHeader>My projects</SectionHeader>
       </motion.div>
       {projectData.map((project, index) => (
-        <motion.a key={index} className='transition active:scale-105 cursor-pointer' variants={fadeInAnimationVariants} initial='initial' whileInView="animate"
+        <motion.a key={index} className='transition mt-4 active:scale-105 cursor-pointer' variants={fadeInAnimationVariants} initial='initial' whileInView="animate"
           viewport={{
             once: true,
           }}
