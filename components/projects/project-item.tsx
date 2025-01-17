@@ -11,7 +11,7 @@ export default function ProjectItem({
     link,
 }: any) {
     return (
-        <section className="project-item-section">
+        <section className="project-item-section mt-4">
             <div className='project-item-container group'>
                 <div className='p-4 pt-6 sm:p-0 sm:w-[50%] lg:w-[60%]'>
                     <span className='text-2xl font-bold'>{name}</span>
