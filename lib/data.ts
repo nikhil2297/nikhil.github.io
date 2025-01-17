@@ -8,6 +8,7 @@ import r_r_logo from "@/public/r_r_logo.jpeg";
 import genie_ai from "@/public/genie_ai_logo.jpeg";
 import knorket_logo from "@/public/knorket_logo.jpeg";
 import x_pay_ss from "@/public/x_pay_ss.png";
+import finplay_diagram from "@/public/finplay_diagram.png";
 
 export const links = [
   {
@@ -78,16 +79,16 @@ export const skillsData = [
 ] as const;
 
 export const experienceData = [
-  {
-    index: 1,
-    id: "exp1",
-    name: "Genie AI",
-    title: "Software Engineer",
-    image: genie_ai,
-    location: "Toronto, CA",
-    description: `Designed and implemented a component library using Atomic Design principles, creating reusable React components for cross-project standardization. Developed event-driven API architecture using FastAPI and SSE, optimizing real-time data delivery with 30% improved latency.`,
-    date: "Mar 2024 - August 2024",
-  },
+  // {
+  //   index: 1,
+  //   id: "exp1",
+  //   name: "Genie AI",
+  //   title: "Software Engineer",
+  //   image: genie_ai,
+  //   location: "Toronto, CA",
+  //   description: `Designed and implemented a component library using Atomic Design principles, creating reusable React components for cross-project standardization. Developed event-driven API architecture using FastAPI and SSE, optimizing real-time data delivery with 30% improved latency.`,
+  //   date: "Mar 2024 - August 2024",
+  // },
   {
     index: 2,
     id: "exp2",
@@ -130,6 +131,14 @@ export const experienceData = [
 ] as const;
 
 export const projectData = [
+  {
+    name : "FinPlay",
+    description : "Developed a financial trading platform using Angular and Spring Boot, integrating stocks using Yahoo Finance API. Implemented authentication using AWS Congnito and JWT for secure user access. With microservice AWS architecture.",
+    date: "Sept 2024 - Dec 2024",
+    tags: ["Angular", "Spring Boot", "Flask", "Docker", "AWS", "AWS Congnito", "ECS", "RDS"],
+    imageUrl: finplay_diagram,
+    link: "https://medium.com/@nikhillohar2297/finplay-cloud-architecture-a-scalable-and-secure-design-699828c3de08"
+  },
     {
         name : "XPay",
         description: "Designed high-throughput payment system handling 10,000+ concurrent requests. Built message queue system using BullMQ for payment status management. Implemented secure authentication microservice using JWT and public/private key encryption. Created distributed caching service using Redis for optimal performance.",
