@@ -79,16 +79,16 @@ export const skillsData = [
 ] as const;
 
 export const experienceData = [
-  // {
-  //   index: 1,
-  //   id: "exp1",
-  //   name: "Genie AI",
-  //   title: "Software Engineer",
-  //   image: genie_ai,
-  //   location: "Toronto, CA",
-  //   description: `Designed and implemented a component library using Atomic Design principles, creating reusable React components for cross-project standardization. Developed event-driven API architecture using FastAPI and SSE, optimizing real-time data delivery with 30% improved latency.`,
-  //   date: "Mar 2024 - August 2024",
-  // },
+  {
+    index: 1,
+    id: "exp1",
+    name: "Genie AI",
+    title: "Software Engineer",
+    image: genie_ai,
+    location: "Toronto, CA",
+    description: `Designed and implemented a component library using Atomic Design principles, creating reusable React components for cross-project standardization. Developed event-driven API architecture using FastAPI and SSE, optimizing real-time data delivery with 30% improved latency.`,
+    date: "Mar 2024 - August 2024",
+  },
   {
     index: 2,
     id: "exp2",
