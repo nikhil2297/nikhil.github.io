@@ -64,19 +64,20 @@ export const skillsData = [
   {
     id: "id3",
     name: "DevOps",
-    stack: ["AWS", "Docker", "Kubernetes", "Terraform", "Apache Kafka"],
+    stack: ["AWS", "Docker", "Kubernetes", "Terraform", "Apache Kafka", "Redis","Nginx", "Jmeter"],
   },
-  // {
-  //   id: "id4",
-  //   name: "Machine Learning",
-  //   stack: ["Jupyter Notebook", "Scikit-learn"], // Corrected "Juypter" to "Jupyter" and "Sckit learn" to "Scikit-learn".
-  // },
-  // {
-  //   id: "id5",
-  //   name: "Ongoing",
-  //   stack: ["Rust", "Prometheus"],
-  // },
+  {
+    id: "id4",
+    name: "Version Control",
+    stack: ["Git", "Github-Action"], // Corrected "Juypter" to "Jupyter" and "Sckit learn" to "Scikit-learn".
+  },
+  {
+    id: "id5",
+    name: "Ongoing",
+    stack: ["Rust"],
+  },
 ] as const;
+
 
 export const experienceData = [
   {
@@ -106,7 +107,7 @@ export const experienceData = [
     title: "Fullstack Developer",
     image: r_r_logo,
     location: "Mumbai, IN",
-    description: `Created and maintained Serverless APIs over an event-driven architecture on AWS and microservices for lead funneling via marketing campaigns, scaling to over 5000 requests per second. Implemented user session management, invoice generation, pdf utility, and Portfolio Execution unit microservices using event-driven architecture.`,    date: "Jan 2023 - August 2023",
+    description: `Developed serverless APIs on AWS supporting lead funneling, scaling systems to over 5,000 requests/second. Built a domain-driven microservices for onboarding, invoice generation, and PDF utilities, reducing manual processes and streamlining operations.`,    date: "Jan 2023 - August 2023",
   },
   {
     index: 4,
