@@ -88,9 +88,9 @@ export const experienceData = [
     image: genie_ai,
     location: "Toronto, CA",
     description: `Architected and developed a comprehensive component library using React, TypeScript, and Atomic Design principles, creating reusable UI components that reduced development time by 30% and enabled cross-project standardization
-                  Implemented pixel-perfect responsive UI components from Figma designs while integrating accessibility features following WCAG guidelines, significantly improving application usability for all users
-                  Developed event-driven API architecture using FastAPI and Server-Sent Events (SSE), resulting in 30% improved latency for real-time data delivery
-                  Collaborated with UX team to establish and maintain frontend development standards, participating in code reviews and contributing to technical documentation`,
+                  . Implemented pixel-perfect responsive UI components from Figma designs while integrating accessibility features following WCAG guidelines, significantly improving application usability for all users
+                  . Developed event-driven API architecture using FastAPI and Server-Sent Events (SSE), resulting in 30% improved latency for real-time data delivery
+                  . Collaborated with UX team to establish and maintain frontend development standards, participating in code reviews and contributing to technical documentation`,
     date: "Mar 2024 - August 2024",
   },
   {
@@ -101,8 +101,8 @@ export const experienceData = [
     image: knorket_logo,
     location: "Toronto, CA",
     description: `Architected and implemented a distributed data validation framework using PySpark, creating a framework-agnostic expectation system that enabled customizable validation rules for large-scale data processing
-Developed a React-based data visualization dashboard with TypeScript, implementing a frontend validation system using custom hooks and Context API to streamline data interpretation
-Collaborated cross-functionally with design teams to maintain consistent UI/UX, ensuring seamless integration between backend validation framework and frontend components`,
+. Developed a React-based data visualization dashboard with TypeScript, implementing a frontend validation system using custom hooks and Context API to streamline data interpretation
+. Collaborated cross-functionally with design teams to maintain consistent UI/UX, ensuring seamless integration between backend validation framework and frontend components`,
     date: "Feb 2023 - April 2024",
   },
   {
@@ -112,7 +112,7 @@ Collaborated cross-functionally with design teams to maintain consistent UI/UX, 
     title: "Fullstack Developer",
     image: r_r_logo,
     location: "Mumbai, IN",
-    description: `Developed serverless APIs on AWS supporting lead funneling, scaling systems to over 5,000 requests/second. Built a domain-driven microservices for onboarding, invoice generation, and PDF utilities, reducing manual processes and streamlining operations.`,    date: "Jan 2023 - August 2023",
+    description: `Architected and developed a comprehensive serverless infrastructure on AWS, scaling APIs to handle over 5,000 requests/second for lead funneling, while implementing domain-driven microservices for onboarding, invoice generation, and PDF utilities. Developed a responsive frontend interface using React and TypeScript, creating modular, reusable components that reduced code duplication by 40%. Enhanced application performance through lazy loading and code splitting techniques, while implementing robust CI/CD pipelines using GitHub Actions for streamlined frontend deployments.`,    date: "Jan 2023 - August 2023",
   },
   {
     index: 4,
@@ -121,7 +121,7 @@ Collaborated cross-functionally with design teams to maintain consistent UI/UX, 
     title: "Software Engineer",
     location: "Mumbai, IN",
     image: bitkraft_logo,
-    description: `Developed and maintained global UI component library with automated CI/CD pipeline. Led development of EDA platform from system design to production deployment. Created platform-agnostic file upload service resolving critical Android compatibility issues.`,
+    description: `Developed and maintained a comprehensive global UI component library with automated CI/CD pipeline and extensive documentation, achieving 98% accessibility score in Lighthouse audits. Led development of EDA platform from system design to production deployment, while creating a platform-agnostic file upload service that resolved critical Android compatibility issues. Implemented robust frontend testing initiatives using Jest and React Testing Library, achieving 85% test coverage, while mentoring junior developers in React best practices and modern frontend development patterns.`,
     date: "Sept 2020 - July 2022",
   },
   {
@@ -131,7 +131,7 @@ Collaborated cross-functionally with design teams to maintain consistent UI/UX, 
     image: indiawyn,
     title: "Junior Developer",
     location: "Mumbai, IN",
-    description: `Enhanced SPA performance through optimization of Angular lifecycle events. Built automated testing service using Selenium with Excel-based reporting. Developed WebSocket service for real-time gaming updates.`,
+    description: `Significantly enhanced web application performance through optimization of React and Angular lifecycle events, reducing initial load time by 45% and implementing responsive design patterns for cross-browser compatibility. Developed comprehensive automated testing infrastructure using Selenium with Excel-based reporting and detailed test coverage analysis. Engineered WebSocket service to enable real-time gaming updates while maintaining optimal performance across the application stack.`,
     date: "Jan 2019 - July 2020",
   },
 ] as const;
@@ -147,7 +147,7 @@ export const projectData = [
   },
     {
         name : "XPay",
-        description: "Designed high-throughput payment system handling 10,000+ concurrent requests. Built message queue system using BullMQ for payment status management. Implemented secure authentication microservice using JWT and public/private key encryption. Created distributed caching service using Redis for optimal performance.",
+        description: "Designed and implemented a high-throughput payment system capable of handling 10,000+ concurrent requests, utilizing BullMQ for payment status management and WebSocket integration for real-time updates. Developed a responsive, mobile-first frontend interface using React and TypeScript with custom hooks for state management and API integration. Built secure authentication microservice using JWT and public/private key encryption, while implementing a distributed caching service using Redis to optimize system performance.",
         date: "June 2024 - August 2024",
         tags: ["Node.js", "RabbitMQ", "Redis", "WebSockets", "UPI", "JWT"],
         imageUrl: x_pay_ss,
@@ -163,7 +163,7 @@ export const projectData = [
   },
   {
     name: "RecNN",
-    description: "Built scalable music recommendation platform using Next.js and Flask, implementing KNN-based recommendation engine with Spotify API integration for personalized playlist generation.",
+    description: "Developed a scalable music recommendation platform using Next.js and Flask, implementing a KNN-based recommendation engine with Spotify API integration for personalized playlist generation. Created an intuitive, responsive user interface featuring an accessible custom audio player component with keyboard controls, while implementing client-side caching to optimize performance and enhance user experience.",
     date: "Sept 2023 - Dec 2023",
     tags: ["React", "Next.js", "Chakra UI", "Flask", "Numpy", "Pandas", "scikit-learn"],
     imageUrl: recnn,
