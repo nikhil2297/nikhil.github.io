@@ -38,10 +38,10 @@ export const links = [
 ] as const;
 
 export const personalData = {
-  roles: ["Full Stack Engineer", "Data Engineer", "Cloud Engineer"],
+  roles: ["Full Stack Engineer", "Frontend Engineer", "Cloud Engineer"],
   linkedin: "https://www.linkedin.com/in/nikhillohar2297/", // Corrected spelling from "linkden" to "linkedin".
   github: "https://github.com/nikhil2297",
-  about: `I'm a versatile Full Stack Engineer with 4 years of experience specializing in Java and TypeScript, with expertise in Microservice Architecture and Distributed Systems. Completed Cloud Computing and AI studies at Durham College, I combine technical prowess with a passion for innovation. My experience spans across various domains including AI-driven solutions, data engineering, and cloud architecture, enabling me to deliver robust and scalable solutions.`,
+  about: `Full Stack Developer with 4+ years of experience, specializing in React, TypeScript, and cloud technologies. Strong background in building scalable, accessible web applications and microservice architectures. Passionate about distributed systems, DevOps, and real-time data processing.`,
 };
 
 export const skillsData = [
@@ -54,17 +54,17 @@ export const skillsData = [
   {
     id: "id1",
     name: "Backend",
-    stack: ["Java", "Node.js", "FastAPI", "Python"],
+    stack: ["Node.js", "Express.js"],
   },
   {
     id: "id2",
     name: "Database",
-    stack: ["PostgreSQL", "MongoDB"],
+    stack: ["PostgreSQL"],
   },
   {
     id: "id3",
     name: "DevOps",
-    stack: ["AWS", "Docker", "Kubernetes", "Terraform", "Apache Kafka", "Redis","Nginx", "Jmeter"],
+    stack: ["AWS", "Docker", "Kubernetes", "Apache Kafka", "Redis","Nginx", "Jmeter"],
   },
   {
     id: "id4",
@@ -74,7 +74,7 @@ export const skillsData = [
   {
     id: "id5",
     name: "Ongoing",
-    stack: ["Rust"],
+    stack: ["Rust", "Java"],
   },
 ] as const;
 
@@ -87,7 +87,10 @@ export const experienceData = [
     title: "Software Engineer",
     image: genie_ai,
     location: "Toronto, CA",
-    description: `Designed and implemented a component library using Atomic Design principles, creating reusable React components for cross-project standardization. Developed event-driven API architecture using FastAPI and SSE, optimizing real-time data delivery with 30% improved latency.`,
+    description: `Architected and developed a comprehensive component library using React, TypeScript, and Atomic Design principles, creating reusable UI components that reduced development time by 30% and enabled cross-project standardization
+                  Implemented pixel-perfect responsive UI components from Figma designs while integrating accessibility features following WCAG guidelines, significantly improving application usability for all users
+                  Developed event-driven API architecture using FastAPI and Server-Sent Events (SSE), resulting in 30% improved latency for real-time data delivery
+                  Collaborated with UX team to establish and maintain frontend development standards, participating in code reviews and contributing to technical documentation`,
     date: "Mar 2024 - August 2024",
   },
   {
@@ -97,7 +100,9 @@ export const experienceData = [
     title: "Data Engineer",
     image: knorket_logo,
     location: "Toronto, CA",
-    description: `Designed a distributed data validation framework using PySpark for large-scale data processing. Created a framework-agnostic data expectation system with customizable validation rules.`,
+    description: `Architected and implemented a distributed data validation framework using PySpark, creating a framework-agnostic expectation system that enabled customizable validation rules for large-scale data processing
+Developed a React-based data visualization dashboard with TypeScript, implementing a frontend validation system using custom hooks and Context API to streamline data interpretation
+Collaborated cross-functionally with design teams to maintain consistent UI/UX, ensuring seamless integration between backend validation framework and frontend components`,
     date: "Feb 2023 - April 2024",
   },
   {
