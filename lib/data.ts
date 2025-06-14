@@ -41,7 +41,7 @@ export const personalData = {
   roles: ["Full Stack Engineer", "Frontend Engineer", "Cloud Engineer"],
   linkedin: "https://www.linkedin.com/in/nikhillohar2297/", // Corrected spelling from "linkden" to "linkedin".
   github: "https://github.com/nikhil2297",
-  about: `Full Stack Developer with 4+ years of experience, specializing in React, TypeScript, and cloud technologies. Strong background in building scalable, accessible web applications and microservice architectures. Passionate about distributed systems, DevOps, and real-time data processing.`,
+  about: `Full Stack Developer with 4+ years of experience, specializing in React, TypeScript, and cloud technologies. Strong background in building scalable, accessible web applications and microservice architectures.`,
 };
 
 export const skillsData = [
@@ -87,24 +87,21 @@ export const experienceData = [
     title: "Software Engineer",
     image: genie_ai,
     location: "Toronto, CA",
-    description: `Architected and developed a comprehensive component library using React, TypeScript, and Atomic Design principles, creating reusable UI components that reduced development time by 30% and enabled cross-project standardization
-                  . Implemented pixel-perfect responsive UI components from Figma designs while integrating accessibility features following WCAG guidelines, significantly improving application usability for all users
-                  . Developed event-driven API architecture using FastAPI and Server-Sent Events (SSE), resulting in 30% improved latency for real-time data delivery
-                  . Collaborated with UX team to establish and maintain frontend development standards, participating in code reviews and contributing to technical documentation`,
+    description: `Architected an event-driven system to resolve API latency issues, implemented Redis caching and cloud optimizations to cut AWS costs by 25%, and led WCAG accessibility improvements, raising compliance from 70% to 98%.`,
     date: "Mar 2024 - August 2024",
   },
-  {
-    index: 2,
-    id: "exp2",
-    name: "Knorket AI",
-    title: "Data Engineer",
-    image: knorket_logo,
-    location: "Toronto, CA",
-    description: `Architected and implemented a distributed data validation framework using PySpark, creating a framework-agnostic expectation system that enabled customizable validation rules for large-scale data processing
-. Developed a React-based data visualization dashboard with TypeScript, implementing a frontend validation system using custom hooks and Context API to streamline data interpretation
-. Collaborated cross-functionally with design teams to maintain consistent UI/UX, ensuring seamless integration between backend validation framework and frontend components`,
-    date: "Feb 2023 - April 2024",
-  },
+//   {
+//     index: 2,
+//     id: "exp2",
+//     name: "Knorket AI",
+//     title: "Data Engineer",
+//     image: knorket_logo,
+//     location: "Toronto, CA",
+//     description: `Architected and implemented a distributed data validation framework using PySpark, creating a framework-agnostic expectation system that enabled customizable validation rules for large-scale data processing
+// . Developed a React-based data visualization dashboard with TypeScript, implementing a frontend validation system using custom hooks and Context API to streamline data interpretation
+// . Collaborated cross-functionally with design teams to maintain consistent UI/UX, ensuring seamless integration between backend validation framework and frontend components`,
+//     date: "Feb 2023 - April 2024",
+//   },
   {
     index: 3,
     id: "exp3",
@@ -112,7 +109,8 @@ export const experienceData = [
     title: "Fullstack Developer",
     image: r_r_logo,
     location: "Mumbai, IN",
-    description: `Architected and developed a comprehensive serverless infrastructure on AWS, scaling APIs to handle over 5,000 requests/second for lead funneling, while implementing domain-driven microservices for onboarding, invoice generation, and PDF utilities. Developed a responsive frontend interface using React and TypeScript, creating modular, reusable components that reduced code duplication by 40%. Enhanced application performance through lazy loading and code splitting techniques, while implementing robust CI/CD pipelines using GitHub Actions for streamlined frontend deployments.`,    date: "Jan 2023 - August 2023",
+    description: `Scaled serverless AWS APIs to handle 5,000+ requests/second supporting 200% business growth, built domain-driven microservices to automate onboarding and invoicing, saving 15 hours/week, and developed a modular React component library that reduced code duplication by 40% through component composition.`,    
+    date: "Jan 2023 - August 2023",
   },
   {
     index: 4,
@@ -121,7 +119,7 @@ export const experienceData = [
     title: "Software Engineer",
     location: "Mumbai, IN",
     image: bitkraft_logo,
-    description: `Developed and maintained a comprehensive global UI component library with automated CI/CD pipeline and extensive documentation, achieving 98% accessibility score in Lighthouse audits. Led development of EDA platform from system design to production deployment, while creating a platform-agnostic file upload service that resolved critical Android compatibility issues. Implemented robust frontend testing initiatives using Jest and React Testing Library, achieving 85% test coverage, while mentoring junior developers in React best practices and modern frontend development patterns.`,
+    description: `Developed a global UI component library with CI/CD pipelines to standardize design across three products, reducing frontend delivery time by 30%, and led the design of an exploratory data analysis platform that improved operational efficiency by 25%.`,
     date: "Sept 2020 - July 2022",
   },
   {
@@ -131,7 +129,7 @@ export const experienceData = [
     image: indiawyn,
     title: "Junior Developer",
     location: "Mumbai, IN",
-    description: `Significantly enhanced web application performance through optimization of React and Angular lifecycle events, reducing initial load time by 45% and implementing responsive design patterns for cross-browser compatibility. Developed comprehensive automated testing infrastructure using Selenium with Excel-based reporting and detailed test coverage analysis. Engineered WebSocket service to enable real-time gaming updates while maintaining optimal performance across the application stack.`,
+    description: `Optimized SPA lifecycle management to cut application load times by 50% and boost user retention by 20%, while building automated testing infrastructure with Excel reporting that increased test coverage from 60% to 90%.`,
     date: "Jan 2019 - July 2020",
   },
 ] as const;
